@@ -22,8 +22,12 @@ debug {
 	message("Version: git.$${VERSION}")
 } else {
 	VERSION = $$system(git describe --abbrev=0 --tags)
+	isEmpty(VERSION) {
+		VERSION = -1
+		warning(Oops, version is empty, are there no tags yet?)
+	}
 	DEFINES += VERSIONSTR=\\\"$${VERSION}\\\"
 	message("Version: $${VERSION}")
 }
 
-SOURCES += test.cpp
+SOURCES += src/test.cpp
