@@ -1,19 +1,13 @@
 Avftor Text Editor
-------------------
-
-Build Instructions
 ==================
 
-`qmake`:
+Build Instructions
+------------------
+
+To build:
 
     cd build
     qmake ..
-    make
-
-`cmake`:
-
-    cd build
-    cmake ..
     make
 
 To run:
@@ -22,8 +16,10 @@ To run:
 
 
 Name Info
-=========
+---------
 
 Name: Avftor
+
 Acronym Expansion: Avftor: Very Fast, Tidy, Open, Reconfigurable
+
 Short form: Avf, avf
