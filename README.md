@@ -4,9 +4,22 @@ Avftor Text Editor
 Build Instructions
 ==================
 
-  cd build
-  qmake ../Avftor.pro
-  make
+`qmake`:
+
+    cd build
+    qmake ..
+    make
+
+`cmake`:
+
+    cd build
+    cmake ..
+    make
+
+To run:
+
+    ./avftor
+
 
 Name Info
 =========
