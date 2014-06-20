@@ -1,6 +1,6 @@
 #include <cstdio>
 
 int main(){
-	printf("Hello World\n");
+	printf("Hello World (%s)\n", VERSIONSTR);
 	return 0;
 }
