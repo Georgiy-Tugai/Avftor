@@ -30,4 +30,4 @@ debug {
 	message("Version: $${VERSION}")
 }
 
-SOURCES += src/test.cpp
+SOURCES += src/main.cpp
